@@ -1,0 +1,41 @@
+@import '~styles/common';
+
+.gallery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+
+  &__mask {
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: @content-bg-color;
+    opacity: 0;
+    transition: visibility 0s linear 0s, opacity 0.3s 0s;
+  }
+
+  &__preview {
+    position: fixed;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    transition: all 0.3s cubic-bezier(0.2, 0, 0.2, 1);
+  }
+}
+
+// dark theme
+[data-theme='dark'] {
+  .gallery {
+    &__mask {
+      background-color: @d-content-bg-color;
+
+      .transition(@properties: background-color);
+    }
+  }
+}

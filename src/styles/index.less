@@ -1,0 +1,19 @@
+@import 'common';
+
+body {
+  width: 100%;
+  min-height: 100%;
+  color: @text-color;
+  background-color: @content-bg-color;
+
+  .contentFF();
+  .transition();
+}
+
+// theme
+[data-theme='dark'] {
+  body {
+    color: @d-text-color;
+    background-color: @d-content-bg-color;
+  }
+}

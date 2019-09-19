@@ -1,0 +1,14 @@
+{
+  "id": "westwood",
+  "name": "Li Zhi",
+  "email": "lizhi1026@126.com",
+  "nickname": "westwood",
+  "avatar": "avatar/westwood.png",
+  "slogan": "求知若饥，虚心若愚 (Stay hungry, stay foolish)",
+  "links": [
+    {
+      "icon": "github",
+      "url": "https://github.com/"
+    }
+  ]
+}
