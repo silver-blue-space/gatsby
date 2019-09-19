@@ -33,14 +33,15 @@ module.exports = {
           name: 'PROJECTS',
           list: [
             {
-              name: 'VSUITE',
-              link: 'https://github.com/vsuite/vsuite',
-              tag: 'soon',
+              name: 'LZNetworkHelper',
+              link: 'https://github.com/gaojihao/LZNetworkHelper',
             },
             {
-              name: 'BCFLOW',
-              link: 'https://github.com/the-bcflow/bcflow',
-              tag: 'soon',
+              name: 'react-admin',
+              link: 'https://github.com/gaojihao/react-admin',
+            },{
+              name: 'Template-based-code-generation',
+              link: 'https://github.com/gaojihao/Template-based-code-generation',
             },
           ],
         },

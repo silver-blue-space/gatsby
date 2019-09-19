@@ -49,7 +49,7 @@ export default () => {
                 </a>
               </div>
               <div className="copyright">
-                Copyright © 2019 {pick(data, 'site.siteMetadata.nickname')}.
+                Copyright © 2016 {pick(data, 'site.siteMetadata.nickname')}.
               </div>
             </div>
             <div className="footer__links">
