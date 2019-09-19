@@ -124,7 +124,7 @@ class Header extends PureComponent {
             <div className="header__content" style={{ maxWidth }}>
               <div className="header__content__left">
                 <div className="logo">
-                  <Link to="/">Blog</Link>
+                  <Link to="/">求知若饥 虚心若愚</Link>
                 </div>
                 {title && <div className="title">{title || 'Home'}</div>}
               </div>

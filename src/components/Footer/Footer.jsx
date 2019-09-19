@@ -39,7 +39,7 @@ export default () => {
           <div className="footer__wrapper">
             <div className="footer__logo">
               <div className="title">
-                Blog
+              求知若饥 虚心若愚
                 <a
                   href={withPrefix('/rss.xml')}
                   target="_blank"
