@@ -3,5 +3,8 @@
   "name": "生活",
   "description": "",
   "cover": "cover/life-logo.jpeg",
-  "links": []
+  "links": [{
+    "icon": "github",
+    "url": "https://github.com/vuejs/vue"
+  }]
 }

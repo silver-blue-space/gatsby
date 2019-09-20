@@ -4,7 +4,7 @@ cover: cover.png
 author: westwood
 date: 2017-11-20
 series: javascript-engine
-tags: [translation]
+tags: [javascript]
 draft: true
 ---
 
