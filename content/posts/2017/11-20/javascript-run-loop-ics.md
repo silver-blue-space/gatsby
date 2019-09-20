@@ -36,7 +36,7 @@ javascript是一门单线程语言，在最新的HTML5中提出了Web-Worker，�
 
 说了这么多文字，不如直接一段代码更直白:
 
-```
+``` JavaScript
 let data = [];
 $.ajax({
     url:www.javascript.com,
@@ -61,7 +61,7 @@ console.log('代码执行结束');
 
 大名鼎鼎的`setTimeout`无需再多言，大家对他的第一印象就是异步可以延时执行，我们经常这么实现延时3秒执行
 
-```
+``` JavaScript
 setTimeout(() => {
     console.log('延时3秒');
 },3000)
@@ -71,7 +71,7 @@ setTimeout(() => {
 
 先看一个例子：
 
-```
+``` JavaScript
 setTimeout(() => {
     task();
 },3000)
@@ -88,7 +88,7 @@ console.log('执行console');
 去验证一下，结果正确！
 然后我们修改一下前面的代码：
 
-```
+``` JavaScript
 setTimeout(() => {
     task()
 },3000)
@@ -111,7 +111,7 @@ sleep(10000000)
 
 答案是不会的，`setTimeout(fn,0)`的含义是，指定某个任务在主线程最早可得的空闲时间执行，意思就是不用再等多少秒了，只要主线程执行栈内的同步任务全部执行完成，栈为空就马上执行。举例说明：
 
-```
+``` JavaScript
 //代码1
 console.log('先执行这里');
 setTimeout(() => {
@@ -165,7 +165,7 @@ setTimeout(() => {
 
 事件循环的顺序，决定js代码的执行顺序。进入整体代码(宏任务)后，开始第一次循环。接着执行所有的微任务。然后再次从宏任务开始，找到其中一个任务队列执行完毕，再执行所有的微任务。听起来有点绕，我们用文章最开始的一段代码说明：
 
-```
+``` JavaScript
 setTimeout(function() {
     console.log('setTimeout');
 })
@@ -192,7 +192,7 @@ console.log('console');
 
 我们来分析一段较复杂的代码，看看你是否真的掌握了js的执行机制：
 
-```
+``` JavaScript
 console.log('1');
 
 setTimeout(function() {
