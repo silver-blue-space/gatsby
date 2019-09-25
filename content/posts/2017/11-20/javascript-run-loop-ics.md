@@ -5,7 +5,7 @@ author: westwood
 date: 2017-11-20
 series: javascript-engine
 tags: [javascript]
-draft: true
+draft: false
 ---
 
 
