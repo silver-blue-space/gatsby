@@ -1,10 +1,10 @@
 ---
-title: JavaScript 执行机制
-cover: cover.png
+title: iOS编译器
+cover: cover.jpg
 author: westwood
 date: 2016-06-04
-series: javascript-engine
-tags: [javascript]
+series: ios
+tags: [ios]
 draft: false
 ---
 
