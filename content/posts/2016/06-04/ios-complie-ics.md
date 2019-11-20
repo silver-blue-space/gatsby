@@ -1,6 +1,6 @@
 ---
 title: iOS编译器
-cover: cover.jpg
+cover: cover.png
 author: westwood
 date: 2016-06-04
 series: ios

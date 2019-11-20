@@ -151,11 +151,6 @@ class Header extends PureComponent {
                         )
                       }
                     </Media>
-                    <li>
-                      <Link to="/search">
-                        <Icon icon="search" size={20} />
-                      </Link>
-                    </li>
                     <li onClick={toggleTheme}>
                       <Icon
                         icon={
