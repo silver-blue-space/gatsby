@@ -5,6 +5,8 @@
   "nickname": "westwood",
   "avatar": "avatar/westwood.png",
   "slogan": "求知若饥，虚心若愚 (Stay hungry, stay foolish)",
+  "organization": false,
+  "backgroundColor": "#FFFFFF",
   "links": [
     {
       "icon": "github",
