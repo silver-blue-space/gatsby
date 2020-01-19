@@ -3,7 +3,7 @@ title: 如何系统地提高自己的智慧
 cover: cover.png
 author: westwood
 date: 2020-01-19
-series: concurrent-secrets
+series: read
 tags: [life]
 draft: false
 ---
