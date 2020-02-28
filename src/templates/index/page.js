@@ -177,7 +177,7 @@ export const query = graphql`
           cover {
             ... on File {
               childImageSharp {
-                resize(width: 200, height: 265, cropFocus: CENTER) {
+                resize(width: 200, height: 200, cropFocus: CENTER) {
                   src
                 }
               }
