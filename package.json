@@ -61,7 +61,7 @@
     "gatsby-remark-sub-sup": "^1.0.0",
     "gatsby-source-filesystem": "^2.1.22",
     "gatsby-transformer-json": "^2.2.8",
-    "gatsby-transformer-remark": "^2.6.22",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.14",
     "katex": "^0.11.0",
     "less": "^3.10.3",
